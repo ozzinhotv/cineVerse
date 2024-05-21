@@ -31,7 +31,7 @@ export const Login = () => {
     <div className="home-container loginVista d-flex justify-content-center align-items-center" >
       	
         <div className="contenedorLogin container d-flex justify-content-center align-items-center " style={{backdropFilter: "blur(1000px)"}}>
-        	<div className="loginContainer">
+        	<div className="loginContainer bg-danger">
            		<h1 className="mb-4">Login</h1>
            		{store.token && store.token !== "" && store.token !== undefined ? (
 					<p>You are logged in with this token: {store.token}</p>

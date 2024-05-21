@@ -34,7 +34,7 @@ export const Signup = () => {
     <div className="home-container d-flex justify-content-center align-items-center" style={{ fontFamily: "Agbalumo" }}>
 
       <div className="contenedorLogin container d-flex justify-content-center align-items-center" style={{backdropFilter: "blur(1000px)"}}>
-        <div className="loginContainer" >
+        <div className="loginContainer bg-danger" >
          	<h1 className="mb-4">Please, Sing Up</h1>
          	{showAlert && (
             <div className="alert alert-success" role="alert">

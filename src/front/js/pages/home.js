@@ -14,10 +14,10 @@ export const Home = () => {
 
   return (
     <div className="home-container vistaHome d-flex justify-content-center align-items-center">
-		<div className="movieWelcome text-white" style={{backdropFilter: "blur(1000px)"}}>
+		<div className="movieWelcome text-black" style={{backdropFilter: "blur(1000px)"}}>
 			<h1  >Welcome to Cineverse</h1>
 			<div className="info Welcome mb-3 ">
-				<div className="grid-left text-white">
+				<div className="grid-left text-black">
 					<p  >
 					Explore a wide range of movies across different genres. Whether you're into action, animation, comedy, drama, or family movies, we've got you covered.
 					</p>

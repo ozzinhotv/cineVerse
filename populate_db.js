@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 
 const MOVIES_API_REQUEST = "https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=5&sort_by=popularity.desc";
 const GENRES_API_REQUEST = "https://api.themoviedb.org/3/genre/movie/list?language=en";
-const PROJECT_API = process.env.BACKEND_URL;
+const PROJECT_API = "https://organic-dollop-4j76j99gw4j6f7wwx-3001.app.github.dev"
 
 const API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4NjI1YmFiMDBkZGNkYzdhZTJiYjZiMjg5MmVhZTZlNCIsInN1YiI6IjY1YjY4MjI4MmZhZjRkMDBjOWRjMWNiZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.9zmeG3eL_llYOqDbxQS1AHjVg7v0qleM5M83PGF26tA"; 
 

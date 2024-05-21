@@ -68,7 +68,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 					})
 				};
 				try {
-					const resp = await fetch (store.API_URL + '/api/user', infoNewUser)
+					const resp = await fetch (store.API_URL + 'api/user', infoNewUser)
 					if (resp.status !== 201) {
 						const errorData = await resp.json();
 						console.error("Error during signup:", errorData);
