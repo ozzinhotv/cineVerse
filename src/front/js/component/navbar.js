@@ -20,10 +20,10 @@ export const Navbar = () => {
 
   
   return (
-    <nav className="navbar navbar-dark fixed-top" style={{backgroundColor: "trasparent"}}>
+    <nav className="navbar navbar-dark" style={{backgroundColor: "#8c0404"}}>
       <div className="container-fluid">
 
-        <Link to="/feed"  style={{ borderRadius: "5px", fontFamily: "Bebas Neue" }}>
+        <Link to="/"  style={{ borderRadius: "5px", fontFamily: "Bebas Neue" }}>
           <img src={logoNav} alt="imagen" className="img-fluid" style={{width: "10rem"}}/>
         </Link>
 
